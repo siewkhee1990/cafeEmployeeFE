@@ -98,7 +98,7 @@ export function Employees() {
         >
           edit
         </Button>
-        {!event.data.cafe && !event.data.currentAssignment && (
+        {/* {!event.data.cafe && !event.data.currentAssignment && (
           <Button
             variant="outlined"
             color="primary"
@@ -106,7 +106,7 @@ export function Employees() {
           >
             assign cafe
           </Button>
-        )}
+        )} */}
         <Button
           variant="outlined"
           color="error"
@@ -666,7 +666,7 @@ export function Employees() {
             Submit Changes
           </Button>
         )}
-        <Button onClick={(event) => test(event)}>Test</Button>
+        {/* <Button onClick={(event) => test(event)}>Test</Button> */}
       </div>
     </div>
   );
